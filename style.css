@@ -78,6 +78,28 @@ body{
     border: #3882F6 solid 4px;
     border-radius: 10px;
 }
+.sectionThree{
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+.s3Content{
+    display: flex;
+    flex-direction: column;
+    margin: 125px 0;
+}
+.s3Content p{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    margin: 0;
+}
+.s3Content h6{
+    align-self: flex-end;
+    font-size: 20px;
+    margin: 0;
+}
 .footer{
     display: flex;
     background-color: #1f2937;
