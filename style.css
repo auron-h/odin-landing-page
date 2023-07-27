@@ -24,23 +24,23 @@ body{
     color: #f9faf8;
     font-size: 24px;
 }
-.leftSide{
+.s1Content .leftSide{
     display: flex;
     flex-direction: column;
     flex: 1;
     margin-left: 270px;
 }
-.leftSide h1{
+.s1Content .leftSide h1{
     font-size: 48px;
     font-weight: 1000;
     color: #f9faf8;
     margin: 0;
 }
-.leftSide p{
+.s1Content .leftSide p{
     font-size: 18px;
     color: #E5E7EB;
 }
-.leftSide .button{
+.s1Content .leftSide .button{
     display: flex;
     width: 125px;
     height: 40px;
@@ -51,7 +51,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.rightSide{
+.s1Content .rightSide{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,6 +99,47 @@ body{
     align-self: flex-end;
     font-size: 20px;
     margin: 0;
+}
+.sectionFour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s4Content{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    border-radius: 20px;
+    margin: 100px 0;
+    gap: 150px;
+    padding: 50px 100px;
+}
+.s4Content .leftSide{
+    display: flex;
+    flex-direction: column;
+}
+.s4Content .leftSide h2{
+    color: #f9faf8;
+    margin: 0;
+}
+.s4Content .leftSide p{
+    margin: 0;
+    color: #E5E7EB;
+}
+.s4Content .rightSide a{
+    height: 50px;
+    width: 100px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 500ms;
+}
+.s4Content .rightSide a:hover{
+    background-color: #f9faf8;
+    color:#3882F6;
 }
 .footer{
     display: flex;
